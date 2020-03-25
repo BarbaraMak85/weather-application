@@ -1,0 +1,59 @@
+    body {
+        margin: 0;
+    }
+    
+    // @media(max-width: 1300px) {}
+    // @media (max-width: 1000px) {}
+    // @media (max-width: 800px) {}
+    // @media(max-width: 480px) {}
+    // @media (max-width: 320px) {}
+    @media(max-width: 1300px) {}
+    
+    @media (max-width: 1000px) {}
+    
+    @media (max-width: 800px) {}
+    
+    @media(max-width: 480px) {}
+    
+    @media (max-width: 320px) {
+        .weather_title {
+            font-size: 20px;
+            display: grid;
+            justify-content: center;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 50px;
+        }
+        .weather_input input {
+            width: 200px;
+            height: 30px;
+            font-size: 12px;
+        }
+        .main-five-weather-list {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 100%;
+            list-style: none;
+            padding: 0px;
+        }
+        .main-five-weather-list .main_li {
+            border-right: solid 0px;
+        }
+        .main_li {
+            color: #ffffff;
+            padding-bottom: 4px;
+            margin-bottom: 64px;
+        }
+        li {
+            justify-content: center;
+        }
+        #fiveDaysWeather {
+            display: grid;
+            justify-content: center;
+        }
+        ul .five-days-weather-item {
+            padding-left: 0px;
+            justify-content: center;
+            display: grid;
+        }
+    }
