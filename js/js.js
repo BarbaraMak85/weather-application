@@ -33,7 +33,7 @@ const weather = {
             })
 
 
-        fetch(`https:/api.openweathermap.org/data/2.5/forecast?APPID=66cdfe710b9da2d2ac8c8c6f763b6750&units=metric&q=${this.city}&lang=pl`)
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?APPID=66cdfe710b9da2d2ac8c8c6f763b6750&units=metric&q=${this.city}&lang=pl`)
             .then(response => response.json())
             .then(jsonWather => {
                 weather.checkWeatherStatus(jsonWather);
