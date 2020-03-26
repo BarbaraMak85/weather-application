@@ -15,35 +15,44 @@
 </head>
 
 <body>
-
-    <h1 class="weather_title"> Sprawdź pogodę dla swojego miasta</h1>
-    <div class="weather_input">
-        <input type="text" id="city">
-    </div>
-
-    <div class="weather_for_days">
-
-        <h3 class="weather_title with_current">Aktualna pogoda <span id="city_placeholder"></span></h3>
-        <div>
-            <div id="currentWeather">
-                <img id="weather_icon" />
-                <ul></ul>
-            </div>
+    <div class="container">
+        <div class="img_background">
+            <img class="photo" src="images/weather.jpg" alt="wather">
         </div>
+        <div class="weather_container">
+            <div class="wather_background">
+                <h1 class="weather_title"> Sprawdź pogodę dla swojego miasta</h1>
+                <div class="weather_input">
+                    <input type="text" id="city">
+                </div>
+
+                <div class="weather_for_days">
+
+                    <h3 class="weather_title with_current">Aktualna pogoda <span id="city_placeholder"></span></h3>
+                    <div>
+                        <div id="currentWeather">
+                            <img id="weather_icon" />
+                            <ul></ul>
+                        </div>
+                    </div>
 
 
-    </div>
-    <div class="weather_five_days">
-        <h3 class="weather_title with_five">Pięciodniowa pogoda</h3>
-    </div>
-    <div id="fiveDaysWeather">
+                </div>
+                <div class="weather_five_days">
+                    <h3 class="weather_title with_five">Pięciodniowa pogoda</h3>
+                </div>
+                <div id="fiveDaysWeather">
+                </div>
 
-    </div>
-    <div class="button_next">
-        <button id="nextButton">NASTĘPNA STRONA</button>
-    </div>
+            </div>
 
-    <div id="notFound"></div>
+            <div class="button_next">
+                <button id="nextButton">NASTĘPNA STRONA</button>
+            </div>
+
+            <div id="notFound"></div>
+        </div>
+    </div>
     <script src="js/js.js"></script>
 </body>
 

@@ -10,9 +10,8 @@ const weather = {
     writeCity: function() {
         weather.city = this.value;
 
-        clearTimeout(weather.waitInput); // w tym przypadku funkcja clearTimout czysci poprzednie czekanie i ustawiamy nowe 
-
-        weather.waitInput = setTimeout(function() { // opóźnia działanie o 1 s. po wciśnięciu klawisza
+        clearTimeout(weather.waitInput);
+        weather.waitInput = setTimeout(function() {
             weather.getWeatherFromApi();
         }, 1000);
 
@@ -48,10 +47,11 @@ const weather = {
 
         if (jsonWather.list) {
             this.showWeatherFiveDays(jsonWather.list);
-            console.log(jsonWather.list);
+
         } else {
             this.showWeather(jsonWather);
         }
+
     },
 
     showWeatherFiveDays: function(jsonWather) {
@@ -67,7 +67,7 @@ const weather = {
 
 
         for (let one_weather of jsonWather) {
-            console.log(one_weather);
+
             const weatherData = [{
                     description: 'Prognoza na dzień',
                     value: one_weather.dt_txt,
@@ -111,6 +111,7 @@ const weather = {
 
             ];
 
+
             let weather_item_list = document.createElement('ul');
             weather_item_list.classList.add('five-days-weather-item');
 
@@ -130,6 +131,8 @@ const weather = {
             weather_item_list_item.appendChild(weather_item_list);
             weather_item_list_item.classList.add('main_li');
             weather_item_list_item.style.display = 'none';
+
+            // document.querySelector('with_curren').style.display = 'block';
 
             weatherListFive.appendChild(weather_item_list_item);
 

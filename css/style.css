@@ -339,8 +339,37 @@ template {
 
 /* Components */
 body {
-  background-color: #0288D1;
+  background-color: #B3E5FC;
   margin: 0 auto;
+}
+
+.img_background .photo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.weather_container {
+  margin-top: -140px;
+  z-index: 1;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.wather_background {
+  background: linear-gradient(10deg, #0171b0, transparent);
+  width: 100%;
+  padding-bottom: 60px;
+  padding-top: 32px;
+  border-radius: 15px;
+  margin-bottom: 40px;
 }
 
 .weather_title {
@@ -363,6 +392,7 @@ body {
 #currentWeather ul li {
   list-style: none;
   font-family: 'Dosis', sans-serif;
+  font-size: 22px;
 }
 
 .weather_title .with_current .with_five {
@@ -403,7 +433,7 @@ body {
   -ms-grid-columns: 20% 20% 20% 20% 20%;
       grid-template-columns: 20% 20% 20% 20% 20%;
   list-style: none;
-  padding: 0px;
+  padding-right: 40px;
 }
 
 .main-five-weather-list .main_li {
@@ -411,9 +441,11 @@ body {
   padding-bottom: 4px;
   border-right: solid 0.5px;
   margin-bottom: 64px;
+  padding-right: 10px;
+  font-size: 10px;
 }
 
-.main-five-weather-list li {
+li {
   list-style: none;
   font-size: 16px;
   font-family: 'Dosis', sans-serif;
@@ -453,6 +485,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Dosis', sans-serif;
+}
+
+#currentWeather img {
+  display: none;
 }
 
 /*  section */
