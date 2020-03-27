@@ -343,6 +343,18 @@ body {
   margin: 0 auto;
 }
 
+:-ms-input-placeholder {
+  color: #3299CC;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+::placeholder {
+  color: #3299CC;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
 .img_background .photo {
   background-size: cover;
   background-position: center;
@@ -390,7 +402,7 @@ body {
   display: grid;
   -ms-flex-pack: center;
       justify-content: center;
-  color: white;
+  color: #ffffff;
   font-size: 24px;
   font-family: 'Dosis', sans-serif;
 }
@@ -412,7 +424,7 @@ body {
   -ms-flex-pack: center;
       justify-content: center;
   outline: none;
-  color: #0288D1;
+  color: #3299CC;
 }
 
 .weather_input input {
