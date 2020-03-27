@@ -1,198 +1,211 @@
-    body {
-        margin: 0;
+body {
+    margin: 0;
+}
+
+// @media(max-width: 1300px) {}
+// @media (max-width: 1000px) {}
+// @media (max-width: 800px) {}
+// @media(max-width: 480px) {}
+// @media (max-width: 320px) {}
+@media(max-width: 1300px) {
+    .container {
+        width: 100%;
     }
-    
-    // @media(max-width: 1300px) {}
-    // @media (max-width: 1000px) {}
-    // @media (max-width: 800px) {}
-    // @media(max-width: 480px) {}
-    // @media (max-width: 320px) {}
-    @media(max-width: 1300px) {}
-    
-    @media (max-width: 1000px) {
-        .wather_background {
-            width: 100%;
-        }
-        ul .five-days-weather-item {
-            padding-right: 0px;
-            display: grid;
-            justify-self: center;
-        }
-        .main-five-weather-list {
-            display: grid;
-            justify-self: center;
-            grid-template-columns: 50% 50%;
-            list-style: none;
-            padding: 0px;
-            width: 800px;
-        }
-        .main-five-weather-list .main_li {
-            border-right: solid 0px;
-            justify-self: center;
-        }
-        .main_li {
-            color: #ffffff;
-            padding-bottom: 4px;
-            margin-bottom: 64px;
-        }
-        li {
-            font-size: 16px;
-        }
-        #currentWeather ul li {
-            font-size: 24px;
-        }
-        #fiveDaysWeather {
-            display: grid;
-            justify-self: center;
-        }
-        ul .five-days-weather-item {
-            padding-left: 0px;
-            justify-content: center;
-            display: grid;
-        }
-        .weather_container {
-            margin-top: -50px;
-        }
-        #currentWeather ul li {
-            font-size: 20px;
-        }
-        .main-five-weather-list .main_li {
-            margin-right: 0px;
-            padding-right: 15px;
-        }
-        .weather_title {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
     }
-    
-    @media (max-width: 800px) {
-        .wather_background {
-            width: 100%;
-        }
-        .main-five-weather-list {
-            display: grid;
-            justify-self: center;
-            grid-template-columns: 100%;
-            list-style: none;
-            padding: 0px;
-        }
-        .main-five-weather-list .main_li {
-            border-right: solid 0px;
-            justify-self: center;
-        }
-        .main_li {
-            color: #ffffff;
-            padding-bottom: 4px;
-            margin-bottom: 64px;
-        }
-        li {
-            font-size: 16px;
-        }
-        #currentWeather ul li {
-            font-size: 24px;
-        }
-        #fiveDaysWeather {
-            display: grid;
-            justify-self: center;
-        }
-        ul .five-days-weather-item {
-            padding-left: 0px;
-            justify-content: center;
-            display: grid;
-        }
-        .weather_container {
-            margin-top: -50px;
-        }
-        #currentWeather ul li {
-            font-size: 20px;
-        }
-        .main-five-weather-list .main_li {
-            margin-right: 0px;
-            padding-right: 0px;
-        }
-        .weather_title {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+    .wather_background {
+        width: 100%;
     }
-    
-    @media(max-width: 480px) {
-        .wather_background {
-            width: 100%;
-        }
-        .weather_container {
-            margin-top: 0px;
-        }
-        .main-five-weather-list {
-            display: grid;
-            justify-content: center;
-            grid-template-columns: 100%;
-            list-style: none;
-            padding: 0px;
-        }
-        .main-five-weather-list .main_li {
-            border-right: solid 0px;
-            justify-self: center;
-        }
-        #currentWeather ul li {
-            font-size: 18px;
-        }
+    ul .five-days-weather-item {
+        padding-right: 0px;
+        display: grid;
+        justify-self: center;
     }
-    
-    @media (max-width: 320px) {
-        .weather_title {
-            font-size: 20px;
-            display: grid;
-            justify-content: center;
-            margin-left: 0px;
-            margin-right: 0px;
-            margin-top: 50px;
-        }
-        .weather_input input {
-            width: 200px;
-            height: 30px;
-            font-size: 12px;
-        }
-        .main-five-weather-list {
-            display: grid;
-            justify-self: center;
-            grid-template-columns: 100%;
-            list-style: none;
-            padding: 0px;
-        }
-        .main-five-weather-list .main_li {
-            border-right: solid 0px;
-            justify-self: center;
-        }
-        .main_li {
-            color: #ffffff;
-            padding-bottom: 4px;
-            margin-bottom: 64px;
-        }
-        #fiveDaysWeather {
-            display: grid;
-            justify-self: center;
-        }
-        ul .five-days-weather-item {
-            padding-left: 0px;
-            justify-content: center;
-            display: grid;
-        }
-        .wather_background {
-            width: 100%;
-        }
-        .weather_container {
-            margin-top: -50px;
-        }
-        #currentWeather ul li {
-            font-size: 20px;
-        }
-        .main-five-weather-list .main_li {
-            margin-right: 0px;
-            padding-right: 0px;
-        }
-        #currentWeather ul li {
-            font-size: 16px;
-        }
+    .main-five-weather-list {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: 50% 50%;
+        list-style: none;
+        padding: 0px;
+        width: 800px;
     }
+    .main-five-weather-list .main_li {
+        border-right: solid 0px;
+        justify-self: center;
+    }
+    .main_li {
+        color: #ffffff;
+        padding-bottom: 4px;
+        margin-bottom: 64px;
+    }
+    li {
+        font-size: 16px;
+    }
+    #currentWeather ul li {
+        font-size: 24px;
+    }
+    #fiveDaysWeather {
+        display: grid;
+        justify-self: center;
+    }
+    ul .five-days-weather-item {
+        padding-left: 0px;
+        justify-content: center;
+        display: grid;
+    }
+    .weather_container {
+        margin-top: -50px;
+    }
+    #currentWeather ul li {
+        font-size: 20px;
+    }
+    .main-five-weather-list .main_li {
+        margin-right: 0px;
+        padding-right: 15px;
+    }
+    .weather_title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    .wather_background {
+        width: 100%;
+    }
+    .main-five-weather-list {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: 100%;
+        list-style: none;
+        padding: 0px;
+    }
+    .main-five-weather-list .main_li {
+        border-right: solid 0px;
+        justify-self: center;
+    }
+    .main_li {
+        color: #ffffff;
+        padding-bottom: 4px;
+        margin-bottom: 64px;
+    }
+    li {
+        font-size: 16px;
+    }
+    #currentWeather ul li {
+        font-size: 24px;
+    }
+    #fiveDaysWeather {
+        display: grid;
+        justify-self: center;
+    }
+    ul .five-days-weather-item {
+        padding-left: 0px;
+        justify-content: center;
+        display: grid;
+    }
+    .weather_container {
+        margin-top: -50px;
+    }
+    #currentWeather ul li {
+        font-size: 20px;
+    }
+    .main-five-weather-list .main_li {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .weather_title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 480px) {
+    .wather_background {
+        width: 100%;
+    }
+    .weather_container {
+        margin-top: 0px;
+    }
+    .main-five-weather-list {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        list-style: none;
+        padding: 0px;
+    }
+    .main-five-weather-list .main_li {
+        border-right: solid 0px;
+        justify-self: center;
+    }
+    #currentWeather ul li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+    .weather_title {
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    .weather_input input {
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .main-five-weather-list {
+        display: grid;
+        justify-self: center;
+        grid-template-columns: 100%;
+        list-style: none;
+        padding: 0px;
+    }
+    .main-five-weather-list .main_li {
+        border-right: solid 0px;
+        justify-self: center;
+    }
+    .main_li {
+        color: #ffffff;
+        padding-bottom: 4px;
+        margin-bottom: 64px;
+    }
+    #fiveDaysWeather {
+        display: grid;
+        justify-self: center;
+    }
+    ul .five-days-weather-item {
+        padding-left: 0px;
+        justify-content: center;
+        display: grid;
+    }
+    .wather_background {
+        width: 100%;
+    }
+    .weather_container {
+        margin-top: -50px;
+    }
+    #currentWeather ul li {
+        font-size: 20px;
+    }
+    .main-five-weather-list .main_li {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    #currentWeather ul li {
+        font-size: 16px;
+    }
+}

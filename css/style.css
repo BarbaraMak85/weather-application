@@ -500,7 +500,16 @@ body {
   margin: 0;
 }
 
+@media (max-width: 1300px) {
+  .container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
   .wather_background {
     width: 100%;
   }
@@ -564,6 +573,9 @@ body {
 }
 
 @media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
   .wather_background {
     width: 100%;
   }
@@ -646,6 +658,9 @@ body {
 }
 
 @media (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
   .weather_title {
     font-size: 20px;
     display: -ms-grid;
