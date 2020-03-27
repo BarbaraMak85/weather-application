@@ -22,11 +22,15 @@ body {
 
 .wather_background {
     background: linear-gradient(10deg, #0171b0, transparent);
-    width: 100%;
+    width: 1100px;
     padding-bottom: 60px;
     padding-top: 32px;
     border-radius: 15px;
     margin-bottom: 40px;
+}
+
+.weather_five_days {
+    display: none;
 }
 
 .weather_title {
@@ -34,6 +38,7 @@ body {
     color: white;
     text-align: center;
     font-family: 'Dosis', sans-serif;
+    display: none;
 }
 
 #currentWeather {

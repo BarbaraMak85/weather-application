@@ -13,7 +13,25 @@
     
     @media (max-width: 800px) {}
     
-    @media(max-width: 480px) {}
+    @media(max-width: 480px) {
+        .wather_background {
+            width: 100%;
+        }
+        .weather_container {
+            margin-top: 0px;
+        }
+        .main-five-weather-list {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 100%;
+            list-style: none;
+            padding: 0px;
+        }
+        .main-five-weather-list .main_li {
+            border-right: solid 0px;
+            justify-self: center;
+        }
+    }
     
     @media (max-width: 320px) {
         .weather_title {
@@ -31,29 +49,45 @@
         }
         .main-five-weather-list {
             display: grid;
-            justify-content: center;
+            //justify-content: center;
+            justify-self: center;
             grid-template-columns: 100%;
             list-style: none;
             padding: 0px;
         }
         .main-five-weather-list .main_li {
             border-right: solid 0px;
+            justify-self: center;
         }
         .main_li {
             color: #ffffff;
             padding-bottom: 4px;
             margin-bottom: 64px;
         }
-        li {
-            justify-content: center;
-        }
+        // li {
+        //     justify-content: center;
+        // }
         #fiveDaysWeather {
             display: grid;
-            justify-content: center;
+            //justify-content: center;
+            justify-self: center;
         }
         ul .five-days-weather-item {
             padding-left: 0px;
             justify-content: center;
             display: grid;
+        }
+        .wather_background {
+            width: 100%;
+        }
+        .weather_container {
+            margin-top: -50px;
+        }
+        #currentWeather ul li {
+            font-size: 20px;
+        }
+        .main-five-weather-list .main_li {
+            margin-right: 0px;
+            padding-right: 0px;
         }
     }

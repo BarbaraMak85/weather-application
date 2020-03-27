@@ -74,11 +74,6 @@ const weather = {
                     unit: ''
                 },
                 {
-                    description: '',
-                    value: ``,
-                    unit: '',
-                },
-                {
                     description: 'Temperatura',
                     value: one_weather.main.temp,
                     unit: '°C'
@@ -142,7 +137,9 @@ const weather = {
     },
 
     showWeather: function(jsonWather) {
-        document.querySelector('#city_placeholder').innerHTML = ` dla miasta ${this.cityInput.value}`;
+        document.querySelector('#city_placeholder').innerHTML = `Aktualna pogoda dla miasta ${this.cityInput.value}`;
+        document.querySelector('#city_placeholder').style.display = 'block';
+        document.querySelector('#weather_five_days').style.display = 'block';
         document.querySelector('#notFound').innerHTML = '';
         const weatherList = document.querySelector('#currentWeather ul');
 
