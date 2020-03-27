@@ -370,6 +370,8 @@ body {
   padding-top: 32px;
   border-radius: 15px;
   margin-bottom: 40px;
+  padding-right: 15px;
+  padding-right: 15px;
 }
 
 .weather_five_days {
@@ -572,6 +574,8 @@ body {
   }
   .wather_background {
     width: 100%;
+    padding-right: 0px;
+    padding-right: 0px;
   }
   .main-five-weather-list {
     display: -ms-grid;
@@ -629,6 +633,8 @@ body {
 @media (max-width: 480px) {
   .wather_background {
     width: 100%;
+    padding-right: 0px;
+    padding-right: 0px;
   }
   .weather_container {
     margin-top: 0px;
