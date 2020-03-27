@@ -500,12 +500,6 @@ body {
   margin: 0;
 }
 
-@media (max-width: 1300px) {
-  .container {
-    width: 100%;
-  }
-}
-
 @media (max-width: 1000px) {
   .container {
     width: 100%;
@@ -587,6 +581,7 @@ body {
         grid-template-columns: 100%;
     list-style: none;
     padding: 0px;
+    width: 100%;
   }
   .main-five-weather-list .main_li {
     border-right: solid 0px;
@@ -647,6 +642,7 @@ body {
         grid-template-columns: 100%;
     list-style: none;
     padding: 0px;
+    width: 100%;
   }
   .main-five-weather-list .main_li {
     border-right: solid 0px;
@@ -684,6 +680,7 @@ body {
         grid-template-columns: 100%;
     list-style: none;
     padding: 0px;
+    width: 100%;
   }
   .main-five-weather-list .main_li {
     border-right: solid 0px;
