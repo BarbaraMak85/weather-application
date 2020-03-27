@@ -13,12 +13,18 @@
         .wather_background {
             width: 100%;
         }
+        ul .five-days-weather-item {
+            padding-right: 0px;
+            display: grid;
+            justify-self: center;
+        }
         .main-five-weather-list {
             display: grid;
             justify-self: center;
             grid-template-columns: 50% 50%;
             list-style: none;
             padding: 0px;
+            width: 800px;
         }
         .main-five-weather-list .main_li {
             border-right: solid 0px;
@@ -52,7 +58,7 @@
         }
         .main-five-weather-list .main_li {
             margin-right: 0px;
-            padding-right: 0px;
+            padding-right: 15px;
         }
         .weather_title {
             padding-left: 10px;
